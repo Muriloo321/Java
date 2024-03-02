@@ -52,6 +52,8 @@ public class Principal {
 				order.addItem(itemOrdem);
 	  		}
 	  		
+	  	/*	FORMA ANTIGA QUE FIZ SEM STRINGBUILDERS
+	  		
 	  		System.out.println("ORDER SUMMARY");
 	  		System.out.println("Order moment: "+order.getMoment().now().format(fmt2));
 	  		System.out.println("Order status: "+order.getStatus());
@@ -63,7 +65,9 @@ public class Principal {
 	  			total += or.subTotal();
 	  		}
 	  		
-	  		System.out.println("Total price: "+total);
+	  		System.out.println("Total price: "+total); */
+	  		
+	  		System.out.println(order);
 	  		
 		sc.close();
 	}
